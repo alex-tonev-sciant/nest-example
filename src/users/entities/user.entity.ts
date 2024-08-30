@@ -6,7 +6,7 @@ import {
   OneToOne,
 } from 'typeorm';
 import { Exclude } from 'class-transformer';
-import { Profile } from './profile';
+import { Profile } from './profile.entity';
 import { EntityRelationalHelper } from 'src/utils/relational-entity-helper';
 
 @Entity()
