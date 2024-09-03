@@ -36,6 +36,32 @@ $ npm install
 
 ## Running the app
 
+1. Set up `.env` file with the following properties:
+
+```
+PORT=
+
+# MySQL
+DB_CONTAINER=
+DB_NAME=
+DB_HOST=
+DB_PORT=
+DB_USER=
+DB_PASSWORD=
+
+# JWT
+JWT_SECRET=
+
+# Mailer
+MAIL_HOST=
+MAIL_PORT=
+MAIL_USER=
+MAIL_PASSWORD=
+MAIL_FROM_NAME=
+MAIL_FROM_EMAIL=
+```
+
+2. Run:
 ```bash
 $ npm run db:up
 $ npm run start:dev
